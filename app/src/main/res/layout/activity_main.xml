@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="#81CD81">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lepers"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btn_bonnerep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bonne rep"
+        android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_consulte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulte"
+        android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_jardiniere"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jardiniere"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_passe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Passe"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_lalala"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="lalala"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_92"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="92"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_regale"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="régale"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_pasca"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="pas ça"
+            android:background="#668FA6"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eudes"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btn_suh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Suuuuh"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_nul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nul"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gueudro"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btn_gueudro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="la gueudro"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_joursgueudro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="jours + gueudro"
+            android:background="#668FA6"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_jours"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="tous les jours"
+            android:background="#668FA6"></Button>
+    </LinearLayout>
+</LinearLayout>
